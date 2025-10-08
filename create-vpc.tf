@@ -1,5 +1,5 @@
 # Create a new VPC to launch our instances into
-resource "aws_vpc" "custom" {
+resource "aws_vpc" "custom1" {
   cidr_block           = var.vpc_cidr
   enable_dns_support   = true
   enable_dns_hostnames = true

@@ -1,6 +1,6 @@
 # Create a new security group for the instances
-resource "aws_security_group" "instance_sg" {
-  name   = "instance_sg"
+resource "aws_security_group" "instance_sg1" {
+  name   = "instance_sg1"
   vpc_id = aws_vpc.custom.id
 
   # SSH access from anywhere
